@@ -38,3 +38,10 @@ A fase de implementação final de um analisador léxico envolve a tradução da
 - **Testes e Depuração:** Finalmente, o analisador léxico é testado com várias entradas para garantir que ele reconheça corretamente todos os tokens definidos e lide adequadamente com erros léxicos.
 
 Esses passos garantem que o analisador léxico seja eficiente, preciso e pronto para ser usado como parte de um compilador ou interpretador.
+
+# .
+
+- O codigo devera ler caractere por caratere;
+- a cada charactere lido, um novo estado é chamado e charactere é armazenado em uma string (será o token)
+- tbm é necessário armazenar numero da linha e coluna
+- 
