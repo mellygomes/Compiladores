@@ -1,0 +1,3 @@
+program var integer real begin end
+if then else while do x var
+lasanha
