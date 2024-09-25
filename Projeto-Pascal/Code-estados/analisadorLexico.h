@@ -11,7 +11,7 @@
 typedef struct {
     int cabeca, numLinha, coluna;
     char charEspecial;
-    char fita[1000], lexema[300];
+    char fita[1500], lexema[300];
     
 }  AnalisadorLexico;
 

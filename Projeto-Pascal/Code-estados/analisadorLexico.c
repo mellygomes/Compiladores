@@ -301,12 +301,12 @@ void q7(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -351,12 +351,12 @@ void q10(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -463,12 +463,12 @@ void q17(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -528,12 +528,12 @@ void q21(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -608,12 +608,12 @@ void q26(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -660,12 +660,12 @@ void q29(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -680,12 +680,12 @@ void q30(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -745,12 +745,12 @@ void q34(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -795,12 +795,12 @@ void q37(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -875,12 +875,12 @@ void q42(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -910,12 +910,12 @@ void q44(AnalisadorLexico *lex, Token token, char *TS[]) {
     if ((c == ' ') || (c == '\n') || (c == '\0')) {
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
 
-    } else if ((isalnum(c) != 0)) {
+    } else if ((isalnum(c) == 0)) {
         int tamLex1 = strlen(lex->lexema);
         lex->lexema[tamLex1 - 1] = '\0';
         lex->cabeca -= 1;
         EstadoFinal(lex, token, "PAL-RES", lex->lexema, lex->numLinha, TS, lex->coluna);
-    } else if (isalnum(c) == 0) {
+    } else if (isalnum(c) != 0) {
         q45(lex, token, TS);
     }
 }
@@ -953,7 +953,7 @@ void q46(AnalisadorLexico *lex, Token token, char *TS[]) {
     lex->cabeca -= 1;
     char c = ObterCharactere(lex);
 
-    while (isdigit(c) != 0) {
+    while (isdigit(c)) {
         c = ObterCharactere(lex);
         if(c == '.') {
             q47(lex, token, TS);
@@ -961,12 +961,15 @@ void q46(AnalisadorLexico *lex, Token token, char *TS[]) {
         }
     }
 
-    // garantindo que a ultima posicao seja o caractere nulo finalizador
-    int tamLex2 = strlen(lex->lexema);
-    lex->lexema[tamLex2 - 1] = '\0';
-    lex->cabeca -= 1; //precisa voltar uma posicao na cabeca, pois o while sempre tera avancado um a mais do numero para verificar que isdigit(c) e falso
-    
-    EstadoFinal(lex, token, "NUM_INT", lex->lexema, lex->numLinha, TS, lex->coluna);
+    if ((c == ' ') || (c == '\n') || (c == '\0')) {
+        EstadoFinal(lex, token, "NUM-INT", lex->lexema, lex->numLinha, TS, lex->coluna);
+
+    } else if ((isalnum(c) == 0)) {
+        int tamLex1 = strlen(lex->lexema);
+        lex->lexema[tamLex1 - 1] = '\0';
+        lex->cabeca -= 1;
+        EstadoFinal(lex, token, "NUM-INT", lex->lexema, lex->numLinha, TS, lex->coluna);
+    }
 }
 
 //reconhece numeros float
@@ -977,12 +980,15 @@ void q47(AnalisadorLexico *lex, Token token, char *TS[]) {
         c = ObterCharactere(lex);
     }
 
-    // garantindo que a ultima posicao seja o caractere nulo finalizador
-    int tamLex2 = strlen(lex->lexema);
-    lex->lexema[tamLex2] = '\0';
-    lex->cabeca -= 1; //precisa voltar uma posicao na cabeca, pois o while sempre tera avancado um a mais do numero para verificar que isdigit(c) e falso
-    
-    EstadoFinal(lex, token, "NUM_FLT", lex->lexema, lex->numLinha, TS, lex->coluna);
+    if ((c == ' ') || (c == '\n') || (c == '\0')) {
+        EstadoFinal(lex, token, "NUM-FLT", lex->lexema, lex->numLinha, TS, lex->coluna);
+
+    } else if ((isalnum(c) == 0)) {
+        int tamLex1 = strlen(lex->lexema);
+        lex->lexema[tamLex1 - 1] = '\0';
+        lex->cabeca -= 1;
+        EstadoFinal(lex, token, "NUM-FLT", lex->lexema, lex->numLinha, TS, lex->coluna);
+    }
 }
 
 //reconhece o token '{'
