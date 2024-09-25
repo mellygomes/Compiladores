@@ -24,12 +24,9 @@ typedef struct {
 void InicializarAnalizadorLexico(AnalisadorLexico *lex);
 void IniciarToken(Token token);
 void IniciarAnaliseLexica(AnalisadorLexico *lex, Token token, char *TS[]); 
-// void AvancarCabeca(AnalisadorLexico *lex);
-// int ObterPosicaoDaCabeca(AnalisadorLexico *lex);
+char *concatenarChar(char texto[], char letra);
 void AtualizarLinhaColuna(AnalisadorLexico *lex, char c);
-// int EncontrarColuna(AnalisadorLexico *lex);
 char ObterCharactere(AnalisadorLexico *lex);
-void ObterToken(AnalisadorLexico *lex, Token token, char nome[300], char valor[300], int linha, char *TS[], int coluna);
 
 // estados
 void EstadoInicial(AnalisadorLexico *lex, Token token, char *TS[]);
@@ -78,9 +75,25 @@ void q42(AnalisadorLexico *lex, Token token, char *TS[]);
 void q43(AnalisadorLexico *lex, Token token, char *TS[]);
 void q44(AnalisadorLexico *lex, Token token, char *TS[]);
 void q45(AnalisadorLexico *lex, Token token, char *TS[]);
-void EstadoFinal(AnalisadorLexico *lex, Token token, char *TS[]);
-
-//outros utilitarios
-char *concatenarLetra(char texto[], char letra);
+void q46(AnalisadorLexico *lex, Token token, char *TS[]);
+void q47(AnalisadorLexico *lex, Token token, char *TS[]);
+void q48(AnalisadorLexico *lex, Token token, char *TS[]);
+void q49(AnalisadorLexico *lex, Token token, char *TS[]);
+void q50(AnalisadorLexico *lex, Token token, char *TS[]);
+void q51(AnalisadorLexico *lex, Token token, char *TS[]);
+void q52(AnalisadorLexico *lex, Token token, char *TS[]);
+void q53(AnalisadorLexico *lex, Token token, char *TS[]);
+void q54(AnalisadorLexico *lex, Token token, char *TS[]);
+void q55(AnalisadorLexico *lex, Token token, char *TS[]);
+void q56(AnalisadorLexico *lex, Token token, char *TS[]);
+void q57(AnalisadorLexico *lex, Token token, char *TS[]);
+void q58(AnalisadorLexico *lex, Token token, char *TS[]);
+void q59(AnalisadorLexico *lex, Token token, char *TS[]);
+void q60(AnalisadorLexico *lex, Token token, char *TS[]);
+void q61(AnalisadorLexico *lex, Token token, char *TS[]);
+void q62(AnalisadorLexico *lex, Token token, char *TS[]);
+void q63(AnalisadorLexico *lex, Token token, char *TS[]);
+void q64(AnalisadorLexico *lex, Token token, char *TS[]);
+void EstadoFinal(AnalisadorLexico *lex, Token token, char nome[300], char valor[300], int linha, char *TS[], int coluna);
 
 #endif
