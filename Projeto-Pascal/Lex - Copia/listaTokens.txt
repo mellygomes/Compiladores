@@ -1,0 +1,13 @@
+<SMB-SEM, ";"> 4 : 10
+<ID, "real"> 4 : 6
+<OP-CL, ":"> 4 : 3
+<ID, "z"> 4 : 1
+<SMB-SEM, ";"> 3 : 21
+<ID, "integer"> 3 : 14
+<OP-CL, ":"> 3 : 11
+<NUM-FLT, "1.23"> 3 : 6
+<SMB-COM, ","> 3 : 2
+<ID, "x"> 3 : 1
+<PAL-RES, "var"> 3 : -3
+<SMB-SEM, ";"> 1 : 8
+<ID, "Exemplo"> 1 : -1

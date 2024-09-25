@@ -1,0 +1,4 @@
+Exemplo;
+var
+x, 1.23 : integer;
+z : real;
